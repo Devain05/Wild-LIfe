@@ -1,0 +1,46 @@
+body{
+    background-color:rgba(250, 250, 210, 0.664);
+
+}
+
+header{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 4em;
+    border-bottom: violet solid 10px;
+    border-right: solid violet 10px;
+    border-left: dashed violet 10px;
+    border-top: violet dashed 10px;
+    width: 480px;
+    box-shadow: 8px 8px grey;
+    
+}
+
+img{
+    height: 300px;
+    width: 400px;
+    margin: 10px;
+    padding-bottom: 0.5cm;
+    
+}
+img:hover{
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+
+/* .images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+} */
+
+
+.images{
+    display: flex;
+    gap: 20px;
+    grid-template-columns: 570px 570px 570px;
+    justify-content: center;
+    flex-wrap:wrap;
+}
